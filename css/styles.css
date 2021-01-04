@@ -2,9 +2,33 @@
 	background-color: #ff4c68;
 }
 
+/* .container-fluid{
+	padding: 30% 10%;
+} */
+
+.container-fluid{
+	/* background-color: lightblue; */
+	padding: 3% 15%;
+}
+
+
 .main-heading{
 	font-family: 'Montserrat', sans-serif;
 	size: 3rem;
 	line-height: 1.5;
 	font-weight: 1000;
 }
+
+/* .btn{
+	width: 180px;
+} */
+
+/* .apple-button{
+	display: flex;
+	align-items: center;
+} */
+
+/* .apple-icon{
+	/* background-color: aquamarine; */
+	margin: 0 10px 5px 0;
+} */
