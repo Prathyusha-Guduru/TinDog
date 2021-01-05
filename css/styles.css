@@ -160,3 +160,85 @@ nav{
 	width: 15%;
 	margin: 20px 20px 50px 20px;
 }
+
+
+
+/* PRICING */
+
+.card{
+	position: relative;
+	text-align: center;
+	margin: 0 0 0 20px;
+}
+
+.card-row{
+	/* background-color: lightblue; */
+	padding: 5% 10%;
+}
+
+.card-body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pricing-btn{
+	position:absolute;
+	bottom: 28px;
+	margin: 0 auto;
+}
+
+.btn-block{
+	width: 80%;
+}
+
+
+.last-btn{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.card-heading{
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 550;
+	font-size: 1.5rem;
+
+}
+
+.card-body-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 550;
+	color: #000;
+}
+
+.card-body{
+	color: #8f8f8f;
+}
+
+.btn{
+	font-weight: 400;
+}
+
+.pricing-text{
+	/* background-color: lightskyblue; */
+	text-align: center;
+	/* padding: 5% 0%; */
+}
+
+.pricing-heading{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 550;
+	font-size: 2.7rem;
+}
+
+.pricing-description{
+	color: #8f8f8f;
+}
+
+#pricing{
+	/* background-color: lightslategray; */
+	padding: 8% 0%;
+}
+
