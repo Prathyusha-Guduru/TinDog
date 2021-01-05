@@ -23,7 +23,7 @@
 
 .main-heading{
 	font-family: 'Montserrat', sans-serif;
-	size: 3rem;
+	size: 3.5rem;
 	line-height: 1.5;
 	font-weight: 1000;
 	color: white;
@@ -42,10 +42,11 @@
 .navbar-brand{
 	font-size: 40px;
 	font-family: 'Ubuntu', sans-serif;
+	font-weight: bolder;
 }
 
 nav{
-	margin: 0 auto 4.5rem auto;
+	margin: 0 auto 4rem auto;
 	/* background-color: lawngreen; */
 }
 
@@ -54,8 +55,13 @@ nav{
 	/* background-color: aquamarine; */
 }
 
+.nav-link{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+
 .buttons{
-	margin: 20% 0%;
+	margin: 10% 0% 10% 0%;
 }
 
 .header-body{
@@ -65,7 +71,50 @@ nav{
 
 .iphone-img{
 	transform: rotate(20deg);
-	padding: 0% 0% 0% 50px;
+	margin: 0% 0% 0% 30%;
 	/* background-color: lavender; */
+	width: 60%;
 	
+}
+
+#features{
+	margin: 1.5rem auto 0 auto;
+	padding: 5rem 1rem 5rem 1rem;
+	width: 80%;
+	text-align: center;
+	/* background-color: lightsalmon; */
+}
+
+.features{
+	/* background-color: lightblue;
+	border : 1px solid black; */
+	margin: 1rem auto 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.fas{
+	/* height: 50px; */
+	font-size: 3rem;
+	/* background-color: lightpink; */
+	margin: 0% auto 5% auto;
+	color: #ef8172;
+}
+
+.fas:hover{
+	color: #ff4c68;
+}
+
+.feature-heading{
+	font-weight: 550;
+	font-size: 1.5rem;
+}
+
+.feature-description{
+	color: #8f8f8f;
+	font-size: 0.9rem;
+	/* background-color: lightcyan; */
+	width: 80%;
 }
