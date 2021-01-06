@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1200px) 
+{
+	#title{
+		text-align: center;
+	}
+
+	.iphone-img{
+		transform: rotate(0);
+		position: static;
+		height: 700px;
+		margin: 0 auto;
+	}
+
+	.hidden{
+		visibility: hidden;	
+	}
+}
