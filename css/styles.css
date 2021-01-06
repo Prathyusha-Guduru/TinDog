@@ -8,7 +8,8 @@
 
 #title{
 	background-color: #ff4c68;
-	/* height: 90vh; */
+	height: 90vh;
+	position: relative;
 }
 
 /* .container-fluid{
@@ -70,19 +71,24 @@ nav{
 }
 
 .iphone-img{
-	transform: rotate(20deg);
-	margin: 0% 0% 0% 30%;
+	transform: rotate(25deg);
+	margin: 0% 0% 0% 20%;
 	/* background-color: lavender; */
 	width: 60%;
+	position: relative;
+	/* bottom: 30px; */
+	z-index: 0;
 	
 }
 
 #features{
-	margin: 1.5rem auto 0 auto;
-	padding: 5rem 1rem 5rem 1rem;
+	margin: 0rem auto 0 auto;
+	padding: 6rem 1rem 5rem 1rem;
 	width: 80%;
 	text-align: center;
-	/* background-color: lightsalmon; */
+	background-color:#fff;
+	position: relative;
+	z-index: 1;
 }
 
 .features{
