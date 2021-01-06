@@ -2,7 +2,7 @@
 {
 	#title{
 		text-align: center;
-		height:70vh;
+		
 	}
 
 	.iphone-img{
@@ -14,5 +14,12 @@
 
 	.hidden{
 		visibility: hidden;	
+	}
+
+	
+}
+
+@media only screen and (max-width: 600px){
+	#title{
 	}
 }
